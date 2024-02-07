@@ -1,0 +1,39 @@
+p {
+    color: yellow;
+    font-size: 12px;
+}
+
+body {
+    background-color: purple;
+}
+
+h1,
+h2,
+h3 {
+    font-family: sans-serif
+        /* color: chocolate; */
+}
+
+#header {
+    color: yellow;
+}
+
+#firstname {
+    background-color: red;
+}
+
+.maintitle {
+    font-size: 100px;
+}
+
+.address {
+    font-style: italic;
+}
+
+p * {
+    background-color: green;
+}
+
+#css-abbr {
+    color: green;
+}
