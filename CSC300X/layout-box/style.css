@@ -1,0 +1,31 @@
+#css {
+    background-color: lightblue;
+}
+#html {
+    background-color: lightgreen;
+}
+strong {
+    background-color: rgb(241, 165, 165);
+    display: block;
+}
+p {
+    text-align: right;
+    color: green;
+}
+em, strong {
+    background-color:#B2D6FF;
+    display:block;
+}
+div {
+    background-color: red;
+}
+h1 {
+    border-top: 5px groove red;
+    border-right: 2px dotted green;
+    border-bottom: 3px dashed rgb(4, 0, 255);
+    border-left: 4px double rgb(247, 8, 247);
+}
+table, td, th {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
