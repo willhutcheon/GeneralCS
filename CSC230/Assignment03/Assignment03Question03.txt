@@ -1,0 +1,15 @@
+1.) Because the last index of any array could be the highest value, the entire array will always be traversed, therefore it will have best and worse case complexity of theta(n)
+2.) Linear
+3.) The runtime is not altered, it it still linear
+
+Pseudo code
+        
+secondLargest(array)
+	largest = 0
+	for a = 0 to array.length
+		if array[a] > largest
+			largest = array[a]
+	secondLargest = 0
+	for a = 0 to array.length
+		if array[a] > largest and array[a] does not equal index of largest
+			secondLargest = array[a]
