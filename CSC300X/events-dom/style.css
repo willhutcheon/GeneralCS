@@ -1,0 +1,38 @@
+.shown {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+#sum-container {
+    margin: 200px auto;
+    width: 500px;
+}
+
+#result {
+    font-size: 2em;
+    text-align: center;
+    padding-top: 2em;
+}
+
+.container {
+    margin: 200px auto;
+    width: 1000px;
+    height: 50px;
+}
+
+.small {
+    margin: 0 10px;
+    border: 1px solid black;
+    width: 72px;
+    height: 40px;
+}
+
+.big {
+    margin: 0 10px;
+    border: 1px solid black;
+    width: 360px;
+    height: 240px;
+}
