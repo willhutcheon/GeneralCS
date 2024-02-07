@@ -1,0 +1,2 @@
+The time complexity of this code is O(n^2) because of the nested for's runtimes, each equivalent to n, will run for n * n = n^2 time. Ω(n) would evaluate to
+Ω(n^2). For this code Θ is Θ(n^2).
