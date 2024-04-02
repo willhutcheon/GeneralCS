@@ -1,0 +1,22 @@
+extends navigation.pug
+block content
+    header
+        h1 Main Heading
+        p First Paragraph
+    section
+        p Section Paragraph
+        ul
+            each val, index in ['zero', 'one', 'two']
+                li = index + ':' + val
+        aside
+            h4 Aside Heading
+            div.aside-div
+                p Aside paragraph in div 
+        div#inside-div
+            h3 Div Heading
+            form(action="#")
+                input#car(type="checkbox", name="fav")
+        div#container-left
+            p left paragraph
+            #inside.additional
+            a(href="#") Link here
