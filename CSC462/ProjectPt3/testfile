@@ -1,0 +1,11 @@
+echo 1234
+head -n 1 testfile
+mkdir testdir
+touch testdir/a
+touch testdir/b
+ls testdir
+rm testdir/a
+rm testdir/b
+rmdir testdir
+exit
+echo Error: your program did not exit
